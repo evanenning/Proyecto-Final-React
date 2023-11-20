@@ -18,7 +18,7 @@ export default function Header() {
     ]
   return (
     <div class="menu">
-        <div>
+        <div class="icon">
             <h2 class="title1">Soporte <span class="title2">PSI</span></h2>
         </div>
         <div class="menuList">
