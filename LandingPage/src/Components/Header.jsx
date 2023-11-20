@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Header.css';
 
 export default function Header() {
     const menuList=[
@@ -16,11 +17,17 @@ export default function Header() {
         },
     ]
   return (
-    <div>
+    <div class="menu">
         <div>
-            <h2>Soporte <span>PSI</span></h2>
+            <h2 class="title1">Soporte <span class="title2">PSI</span></h2>
         </div>
-
+        <div class="menuList">
+            {menuList.map((item)=>(
+                <div>
+                    <p class="hover-underline-animation">{item.title}</p>
+                </div>
+            ))}
+        </div>
     </div>
   )
 }

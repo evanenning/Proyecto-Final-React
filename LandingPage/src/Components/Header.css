@@ -1,0 +1,54 @@
+/*menu position*/
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*icon style*/
+  .title1 {
+    font-size: 24px;
+    color: #F5F2F2;
+  }
+  
+  .title2 {
+    color: #03658C;
+  }
+
+/*menu style*/
+  .menuList {
+    color: #F5F2F2;
+    font-size: 18px;
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+  }
+
+/*hover menu*/
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #03658C;
+    transform-origin: bottom right;
+    transition: transform 0.40s ease-out;
+  }
+
+  .hover-underline-animation:hover {
+    transition: transform 0.60s ease-out;
+    color: #03658C; 
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
