@@ -9,13 +9,18 @@ export default function Header() {
         },
         {
             id:1,
-            title: 'Acerca de nosotros'
+            title: 'Nosotros'
         },
         {
             id:1,
-            title: 'Contactanos'
+            title: 'Sedes'
+        },
+        {
+            id:1,
+            title: 'Contacto'
         },
     ]
+
   return (
     <div class="menu">
         <div class="icon">

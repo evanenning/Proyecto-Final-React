@@ -1,16 +1,17 @@
-
-
 /*menu position*/
 .menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0;
+  
 }
 
-/*icon style*/
+/*title style*/
+  .title1, .title2 {
+    font-size: 30px;
+  }
+
   .title1 {
-    font-size: 24px;
     color: #F5F2F2;
   }
   
@@ -19,7 +20,7 @@
   }
 
 
-/*icon hover style*/
+/*title hover style*/
 
   
 
@@ -33,6 +34,7 @@
     display: flex;
     align-items: center;
   }
+
 
 /*hover menu*/
   .hover-underline-animation {
@@ -61,4 +63,23 @@
   .hover-underline-animation:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+  }
+
+
+/*responsive menu*/
+  @media (max-width: 768px) {
+    .menu {
+      flex-direction: column;
+      
+    }
+    .title1, .title2{
+      font-size: 30px;
+    }
+  
+    .menuList {
+      font-size: 16px;
+      flex-direction: row;
+      align-items: center;
+      padding-top: 1rem;
+    }
   }
