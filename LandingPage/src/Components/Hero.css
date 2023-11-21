@@ -1,0 +1,51 @@
+.GeneralConteiner{
+    display: flex;
+}
+
+/*section style*/
+.SectionTitle{
+    font-size: 26px;
+    color:#f5f2f2;
+    display: flex;
+    padding-top: 6rem;
+    padding-left: 1rem;
+
+}
+
+.SectionSubtitle{
+    font-size: 18px;
+    color:#f5f2f2;
+    display: flex;
+    padding-top: 5px;
+    padding-left: 1rem;
+}
+
+/*buttons style*/
+.buttons{
+    display: flex;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.btn1, .btnAlert{
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 8px;
+    gap: 1rem;
+    
+}
+
+/*image style*/
+.image {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 600px;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    
+}
+
+.image img{
+    border-radius: 18px;
+}
