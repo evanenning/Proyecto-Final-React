@@ -49,7 +49,10 @@ table {
 
 /*general*/
 * {
-  background-color: #1d1d1f;
-  font-family: 'Montserrat', sans-serif;
-  
+	font-family: 'Montserrat', sans-serif;
+	background-image: url("/public/background.png");
+	  background-position: center;
+	  background-repeat: no-repeat;
+	
 }
+  

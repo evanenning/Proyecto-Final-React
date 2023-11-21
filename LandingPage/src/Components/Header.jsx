@@ -28,7 +28,7 @@ export default function Header() {
         </div>
         <div class="menuList">
             {menuList.map((item)=>(
-                <div>
+                <div class="item">
                     <p class="hover-underline-animation">{item.title}</p>
                 </div>
             ))}

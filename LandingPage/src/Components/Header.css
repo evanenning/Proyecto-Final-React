@@ -1,14 +1,19 @@
+.menu, .menuList, .icon, p, h2, span, .item{
+  background: transparent;
+}
 /*menu position*/
 .menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+  cursor: pointer;
+  background: transparent;
 }
 
 /*title style*/
   .title1, .title2 {
     font-size: 30px;
+    
   }
 
   .title1 {
