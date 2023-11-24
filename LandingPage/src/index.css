@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 /*reset css*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -50,9 +46,7 @@ table {
 /*general*/
 * {
 	font-family: 'Montserrat', sans-serif;
-	background-image: url("/public/background.png");
-	  background-position: center;
-	  background-repeat: no-repeat;
+	
 	
 }
-  
+

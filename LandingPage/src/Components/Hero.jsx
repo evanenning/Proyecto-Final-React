@@ -5,7 +5,6 @@ function Hero() {
   return (
   
       <div class="conteiner">
-        
         <p class="SectionTitle">Podemos ayudarte</p>
         <p class="SectionSubtitle">Contamos con una amplia red de especialistas</p>
        <div class="buttons">
