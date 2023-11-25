@@ -81,3 +81,51 @@
     border-color: #003449;
     color: #f5f2f2;
 }
+
+.card{
+    background-color: #003449;
+}
+.card h1 {
+    font-size: 32px;
+    color: white;
+    padding-bottom: 22px;
+    background-color: #003449;
+}
+
+.card h2 {
+    font-size: 26px;
+    color: white;
+    padding-bottom: 11px;
+}
+
+.card h3 {
+    font-size: 22px;
+    color: white;
+    padding-bottom: 11px;
+    background-color: #003449;
+}
+.card p {
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: white;
+    width: 100%;
+
+}
+
+.card2 {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f5f2f2;
+}
+
+.card2 h1 {
+    background-color: #f5f2f2;
+    font-size: 30px;
+    padding-bottom: 12px;
+
+}
+
+.card2 p {
+    font-size: 16px;
+}
