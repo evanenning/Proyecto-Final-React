@@ -3,19 +3,31 @@
 	  
 }
 .conteiner{
-    padding-top: 6rem;
+    
     padding-left: 2rem;
     background: transparent;
+    
 }
 
+.conteiner2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 0;
+
+}
 /*section style*/
 .SectionTitle{
-    font-size: 36px;
+    font-size: 46px;
     font-weight: 600;
     color:#f5f2f2;
     display: flex;
     padding-bottom: 1rem;
     background: transparent;
+    
 }
 
 .SectionSubtitle{
@@ -84,6 +96,8 @@
 
 .card{
     background-color: #003449;
+    border-radius: 12px;
+    box-shadow: #1d1d1f;
 }
 .card h1 {
     font-size: 32px;
@@ -117,6 +131,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #f5f2f2;
+    border-radius: 12px;
 }
 
 .card2 h1 {

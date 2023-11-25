@@ -21,11 +21,13 @@ function Hero() {
   return (
   
       <div class="conteiner">
+        <div class="conteiner2">
         <p class="SectionTitle">Podemos ayudarte</p>
         <p class="SectionSubtitle">Contamos con una amplia red de especialistas</p>
        <div class="buttons">
           <button class="btn1" onClick={handleButtonClick} >Mas información</button>
           <button class="btnAlert" onClick={handleUrgentContactClick}>Contacto urgente</button>
+        </div>
         </div>
 
 
@@ -35,8 +37,6 @@ function Hero() {
            <p>En nuestra asociación, creemos en el poder de la psicología para transformar vidas.
       Nos enorgullece ofrecer un servicio de apoyo y orientación psicológica completamente gratuito, 
       comprometidos a brindar ayuda a aquellos que buscan comprensión, alivio y crecimiento personal. </p>
-
-           <h3>¿Quiénes somos?</h3>
             <p>Somos un grupo apasionado de psicólogos comprometidos con la misión de hacer que la 
               ayuda psicológica sea accesible para todos. Creemos que la salud mental es un derecho fundamental, y trabajamos 
               incansablemente para ofrecer un espacio seguro y acogedor para aquellos que buscan apoyo emocional.</p>
@@ -53,16 +53,6 @@ function Hero() {
               <h3>Recursos Educativos:</h3>
 
               <p>Proporcionamos recursos educativos y materiales informativos para promover la comprensión de la salud mental y fomentar prácticas saludables.</p>
-
-              <h3>¿Cómo Puedes Participar?</h3>
-
-              <p>Si estás buscando apoyo emocional, no dudes en contactarnos para programar una sesión gratuita con uno de nuestros psicólogos. </p>
-
-              <p>Ayúdanos a llegar a aquellos que puedan necesitar nuestros servicios. Comparte nuestra asociación y los recursos disponibles en tus redes sociales. </p>
-
-             <p>En nuestra asociación, creemos que todos merecen apoyo y comprensión. Estamos aquí para caminar contigo en tu viaje hacia el bienestar emocional. ¡Únete a nosotros y descubre el poder de la psicología para transformar vidas! </p>
-
-              <p>Para obtener más información o para solicitar una sesión, visita nuestro sitio web o contáctanos directamente. ¡Estamos aquí para ti!</p>         
             </div>
       </div>
 
